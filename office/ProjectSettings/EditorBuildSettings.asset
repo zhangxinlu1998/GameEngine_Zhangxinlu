@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Collider.unity
+    guid: 9636986bd0e84ad4d84a3f7b5b1ecaa9
   m_configObjects: {}
