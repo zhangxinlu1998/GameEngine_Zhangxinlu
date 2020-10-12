@@ -1,14 +1,22 @@
 # 3C_Zhangxinlu
 
-游戏引擎设计第二讲课程作业
+游戏引擎设计第四讲课程作业
 
 
-作业项目源文件：3C_Zhangxinlu /office/
+作业项目源文件：GameEngine_Zhangxinlu/Cloth_zxl/
 
-作业场景：3C_Zhangxinlu/office/Assets/Scenes/3C Work.unity
+作业场景：
+
+碰撞：GameEngine_Zhangxinlu/Cloth_zxl/Assets/IMDT/COURSE/HomeworkBreak/BreakByCollision.unity
+
+布料：GameEngine_Zhangxinlu/Cloth_zxl/Assets/IMDT/COURSE/Cloth/Characters/Scenes/homework-scene.unity
 
 
-作业可执行文件：3C_Zhangxinlu/3C_zxl.rar  解压后点击3C_DanceSimulator.exe运行游戏
+作业可执行文件：
+
+碰撞：GameEngine_Zhangxinlu/BreakHomework.rar  
+
+布料：GameEngine_Zhangxinlu/HomeworkCloth.rar
 
 
-作业说明文档：3C_Zhangxinlu/3C框架_张欣璐.docx
+
