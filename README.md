@@ -1,14 +1,13 @@
-# 3C_Zhangxinlu
+# Tex&Shader
 
-游戏引擎设计第二讲课程作业
-
-
-作业项目源文件：3C_Zhangxinlu /office/
-
-作业场景：3C_Zhangxinlu/office/Assets/Scenes/3C Work.unity
+游戏引擎设计第五讲课程作业
 
 
-作业可执行文件：3C_Zhangxinlu/3C_zxl.rar  解压后点击3C_DanceSimulator.exe运行游戏
+
+作业场景：GameEngine_Zhangxinlu/Tex&Shader_zxl/Assets/IMDT/COURSE/Homework.unity
 
 
-作业说明文档：3C_Zhangxinlu/3C框架_张欣璐.docx
+作业可执行文件：GameEngine_Zhangxinlu/作业说明/Tex&Cullsion_zxl.docx
+
+
+作业说明文档：GameEngine_Zhangxinlu/作业说明/
