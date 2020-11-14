@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Click" ID="{29739DA7-3F9D-4E3C-9103-C48CB022DCE5}">
+					<ChildrenList>
+						<Action Name="" ID="{99F7DD9F-99AF-4830-8BC8-43159ED9A6C3}" ShortID="61326277">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{E8D4C12D-6739-4CF5-A1ED-0C8D1887C9AF}" WorkUnitID="{5A5669F9-5092-4918-BF5F-C0101A7D2553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShortGun" ID="{FF6DCFB3-1538-4A2E-99E4-D0879FCDE6A9}">
+					<ChildrenList>
+						<Action Name="" ID="{44583584-E854-460E-B112-5C14E4139DD3}" ShortID="139083468">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{4F369134-C5B4-4DDA-B59A-23EC7C9BBC3B}" WorkUnitID="{5A5669F9-5092-4918-BF5F-C0101A7D2553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{D01CF893-D571-40A3-ABDF-89D6ECF53382}">
+					<ChildrenList>
+						<Action Name="" ID="{A26AAD3F-6EF3-4FFC-B757-6FABE505D457}" ShortID="1025029309">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{C76B9A3D-12CA-4E8F-B90A-3D36F5B12E1E}" WorkUnitID="{5A5669F9-5092-4918-BF5F-C0101A7D2553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Music" ID="{6178E3D4-ACED-4681-8E28-682DC516A2EB}">
+					<ChildrenList>
+						<Action Name="" ID="{16062DE5-BE22-4C4C-8BB3-2CB3A6C45CB5}" ShortID="341200105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{C76B9A3D-12CA-4E8F-B90A-3D36F5B12E1E}" WorkUnitID="{5A5669F9-5092-4918-BF5F-C0101A7D2553}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

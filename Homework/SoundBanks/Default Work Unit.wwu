@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F681BF8-7ECE-49D9-A6E5-AE814095B10C}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7F681BF8-7ECE-49D9-A6E5-AE814095B10C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI" ID="{1B4F99BF-4D4E-484A-98E6-701CA5278423}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_UI_Click" ID="{29739DA7-3F9D-4E3C-9103-C48CB022DCE5}" WorkUnitID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Character" ID="{56DB9C5E-8A9C-4A7F-8B81-C3C08C9FD673}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ShortGun" ID="{FF6DCFB3-1538-4A2E-99E4-D0879FCDE6A9}" WorkUnitID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{851DC847-7883-4789-A19F-9F8C68A2768D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music" ID="{D01CF893-D571-40A3-ABDF-89D6ECF53382}" WorkUnitID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Music" ID="{6178E3D4-ACED-4681-8E28-682DC516A2EB}" WorkUnitID="{05AAE76B-C580-4811-8B6E-56E41261F9A2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

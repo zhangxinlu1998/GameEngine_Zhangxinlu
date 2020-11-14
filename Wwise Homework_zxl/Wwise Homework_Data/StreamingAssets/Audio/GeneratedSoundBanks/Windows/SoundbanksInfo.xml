@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\WWise\Homework\</ProjectRoot>
+		<SourceFilesRoot>E:\WWise\Homework\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\WWise\Homework\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\WWise\Homework\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX" Hash="3362778636">
+			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3420320478" Name="Play_ShortGun" ObjectPath="\Events\Default Work Unit\Play_ShortGun" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="66512486" Language="SFX">
+							<ShortName>Gun03.wav</ShortName>
+							<Path>SFX\Gun03_10C4C929.wem</Path>
+						</File>
+						<File Id="299732149" Language="SFX">
+							<ShortName>Gun01.wav</ShortName>
+							<Path>SFX\Gun01_10C4C929.wem</Path>
+						</File>
+						<File Id="672643533" Language="SFX">
+							<ShortName>Gun04.wav</ShortName>
+							<Path>SFX\Gun04_10C4C929.wem</Path>
+						</File>
+						<File Id="1016644516" Language="SFX">
+							<ShortName>Gun02.wav</ShortName>
+							<Path>SFX\Gun02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2748813092">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2102502327" Name="SFXVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SFXVolumeCtrl"/>
+				<GameParameter Id="3720083140" Name="VoiceVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\VoiceVolumeCtrl"/>
+				<GameParameter Id="4170688747" Name="SoundVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SoundVolumeCtrl"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX" Hash="1431495986">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="0.083764" DurationMax="0.083764">
+					<IncludedMemoryFiles>
+						<File Id="1066440058" Language="SFX">
+							<ShortName>Click01.wav</ShortName>
+							<Path>SFX\Click01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="869109783">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2735935537" Name="Pause_Music" ObjectPath="\Events\Default Work Unit\Pause_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="756978031" Language="SFX">
+							<ShortName>Music.wav</ShortName>
+							<Path>SFX\Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
