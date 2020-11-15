@@ -10,4 +10,4 @@ unity源文件：GameEngine_Zhangxinlu/New Unity Project/
 作业可执行文件：GameEngine_Zhangxinlu/Wwise Homework_zxl/Wwise Homework.exe
 
 
-作业说明文档：
+作业说明图片：GameEngine_Zhangxinlu/Wwise作业说明.jpg
